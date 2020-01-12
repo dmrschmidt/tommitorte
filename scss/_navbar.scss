@@ -52,12 +52,12 @@
       }
     }
     &.navbar-shrink {
-      background-color: $black-translucent;
+      background-color: $white-translucent;
       .navbar-brand {
-        color: $white;
+        color: $lighter-black;
       }
       .nav-link {
-        color: $white;
+        color: $lighter-black;
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent;
         &:hover {
