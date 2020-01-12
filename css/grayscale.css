@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #fdd40e;
-  border: 1px solid #fdd40e;
+  color: #358fa9;
+  border: 1px solid #358fa9;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -73,15 +73,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #fdd40e;
+    color: #358fa9;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #bd9d02;
+    color: #235e6f;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #fdd40e;
+    color: #358fa9;
     outline: none;
-    border-bottom: 0.25rem solid #fdd40e;
+    border-bottom: 0.25rem solid #358fa9;
   }
 }
 
@@ -148,20 +148,20 @@
 }
 
 .btn-primary {
-  background-color: #fdd40e;
+  background-color: #358fa9;
 }
 
 .btn-primary:hover {
-  background-color: #d6b202;
+  background-color: #296e82;
 }
 
 .btn-primary:focus {
-  background-color: #d6b202;
+  background-color: #296e82;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #bd9d02 !important;
+  background-color: #235e6f !important;
 }
 
 .about-section {
@@ -206,10 +206,10 @@
     padding: 0 0 0 2rem;
   }
   .releases-section .featured-text.right {
-    border-left: 0.5rem solid #fdd40e;
+    border-left: 0.5rem solid #358fa9;
   }
   .releases-section .featured-text.left {
-    border-right: 0.5rem solid #fdd40e;
+    border-right: 0.5rem solid #358fa9;
   }
 }
 
@@ -223,7 +223,7 @@
     padding: 5rem;
   }
   .releases-section .project-text hr {
-    border-color: #fdd40e;
+    border-color: #358fa9;
     border-width: .25rem;
     width: 30%;
   }
@@ -284,7 +284,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #fdd40e;
+  border-bottom: 0.25rem solid #358fa9;
 }
 
 .contact-section .card h4 {
@@ -295,7 +295,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #fdd40e;
+  border-color: #358fa9;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -328,12 +328,12 @@ body {
 }
 
 a {
-  color: #fdd40e;
+  color: #358fa9;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #a48801;
+  color: #1d4d5b;
 }
 
 .mtztgr {
@@ -361,11 +361,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #fdd40e !important;
+  background-color: #358fa9 !important;
 }
 
 .text-primary {
-  color: #fdd40e !important;
+  color: #358fa9 !important;
 }
 
 footer {
