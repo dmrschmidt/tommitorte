@@ -1,0 +1,75 @@
+.contact {
+
+  .even {
+    background-color: $lighter-black;
+  }
+
+  .odd {
+    background-color: $dark-black;
+  }
+
+  @media(min-width: 576px) {
+    @media(max-width: 1199px) {
+      .row-0.even {
+        background-color: $lighter-black;
+      }
+
+      .row-0.odd {
+        background-color: $dark-black;
+      }
+
+      .row-1.even {
+        background-color: $dark-black;
+      }
+
+      .row-1.odd {
+        background-color: $lighter-black;
+      }
+
+      .row-2.even {
+        background-color: $lighter-black;
+      }
+
+      .row-2.odd {
+        background-color: $dark-black;
+      }
+    }
+  }
+}
+
+.contact-section {
+  padding: 5rem 0 0;
+  .card {
+    border: 0;
+    border-bottom: 0.25rem solid $primary;
+    h4 {
+      font-size: 0.8rem;
+      font-family: 'Archivo Black';
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+    }
+    hr {
+      border-color: $primary;
+      border-width: 0.25rem;
+      width: 3rem;
+    }
+  }
+  .social {
+    margin-top: 5rem;
+    a {
+      text-align: center;
+      height: 3rem;
+      width: 3rem;
+      background: fade-out($white, 0.9);
+      border-radius: 100%;
+      line-height: 3rem;
+      color: fade-out($white, 0.7);
+      &:hover {
+        color: fade-out($white, 0.5);
+      }
+      &:active {
+        color: $white;
+      }
+    }
+  }
+}

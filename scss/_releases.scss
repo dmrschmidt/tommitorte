@@ -1,0 +1,51 @@
+.releases-section {
+  padding-bottom: 6rem;
+
+  &.contact {
+    padding-bottom: 0;
+  }
+
+  h1 {
+    padding: 5rem 0;
+  }
+
+  .project {
+    h1 {
+      font-size: 6rem;
+    }
+
+    a {
+      display: block;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+      }
+    }
+  }
+
+  .featured-text {
+    padding: 2rem;
+    @media (min-width: 992px) {
+      padding: 0 0 0 2rem;
+      &.right {
+        border-left: 0.5rem solid $primary;
+      }
+
+      &.left {
+        border-right: 0.5rem solid $primary;
+      }
+    }
+  }
+  .project-text {
+    padding: 3rem;
+    font-size: 90%;
+    @media (min-width: 992px) {
+      padding: 5rem;
+      hr {
+        border-color: $primary;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
+  }
+}

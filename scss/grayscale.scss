@@ -1,0 +1,59 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'navbar.scss';
+@import 'masthead.scss';
+@import 'buttons.scss';
+@import 'about.scss';
+@import 'releases.scss';
+@import 'signup.scss';
+@import 'contact.scss';
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+a {
+  color: $primary;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: darken($primary, 20%);
+  }
+}
+
+.mtztgr {
+  font-family: 'Archivo Black';
+}
+
+.bg-dark-black {
+  background-color: $dark-black !important;
+}
+
+.bg-black {
+  background-color: $black !important;
+}
+
+.bg-lighter-black {
+  background-color: $lighter-black !important;
+}
+
+.bg-lightest-black {
+  background-color: $lightest-black !important;
+}
+
+.bg-zero {
+  background-color: rgb(0,0,0,) !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+footer {
+  padding: 5rem 0;
+}
