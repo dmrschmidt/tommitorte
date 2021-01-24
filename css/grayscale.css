@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #358fa9;
-  border: 1px solid #358fa9;
+  color: #b07a42;
+  border: 1px solid #b07a42;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -73,15 +73,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #358fa9;
+    color: #b07a42;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #235e6f;
+    color: #78532d;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #358fa9;
+    color: #b07a42;
     outline: none;
-    border-bottom: 0.25rem solid #358fa9;
+    border-bottom: 0.25rem solid #b07a42;
   }
 }
 
@@ -148,29 +148,29 @@
 }
 
 .btn-primary {
-  background-color: #358fa9;
+  background-color: #b07a42;
 }
 
 .btn-primary:hover {
-  background-color: #296e82;
+  background-color: #8b6034;
 }
 
 .btn-primary:focus {
-  background-color: #296e82;
+  background-color: #8b6034;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #235e6f !important;
+  background-color: #78532d !important;
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 5rem;
+  text-align: justify;
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .releases-section {
@@ -206,10 +206,10 @@
     padding: 0 0 0 2rem;
   }
   .releases-section .featured-text.right {
-    border-left: 0.5rem solid #358fa9;
+    border-left: 0.5rem solid #b07a42;
   }
   .releases-section .featured-text.left {
-    border-right: 0.5rem solid #358fa9;
+    border-right: 0.5rem solid #b07a42;
   }
 }
 
@@ -223,7 +223,7 @@
     padding: 5rem;
   }
   .releases-section .project-text hr {
-    border-color: #358fa9;
+    border-color: #b07a42;
     border-width: .25rem;
     width: 30%;
   }
@@ -284,7 +284,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #358fa9;
+  border-bottom: 0.25rem solid #b07a42;
 }
 
 .contact-section .card h4 {
@@ -295,7 +295,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #358fa9;
+  border-color: #b07a42;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -328,12 +328,12 @@ body {
 }
 
 a {
-  color: #358fa9;
+  color: #b07a42;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #1d4d5b;
+  color: #664726;
 }
 
 .mtztgr {
@@ -361,11 +361,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #358fa9 !important;
+  background-color: #b07a42 !important;
 }
 
 .text-primary {
-  color: #358fa9 !important;
+  color: #b07a42 !important;
 }
 
 footer {
