@@ -1,7 +1,7 @@
 .about-section {
   padding-top: 5rem;
   text-align: justify;
-  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .6)} 30%,#{fade-out($black, .1)} 75%,$black 100%), url('../img/bg-about-2.jpg');
+  background: linear-gradient(to bottom, #{fade-out($black, .01)} 0%, #{fade-out($black, .9)} 20%, #{fade-out($black, .7)} 30%, #{fade-out($black, .1)} 75%, $black 100%), url('../img/bg-about-2.jpg');
   background-size: cover;
   background-position: center;
 
