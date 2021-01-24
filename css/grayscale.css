@@ -167,14 +167,33 @@
 .about-section {
   padding-top: 5rem;
   text-align: justify;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.4) 30%, rgba(22, 22, 22, 0.9) 75%, #161616 100%), url("../img/bg-about-2.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.about-section p {
+.about-section .introduction {
+  background-color: rgba(49, 49, 49, 0.6);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.about-section .introduction p {
   margin-bottom: 2rem;
 }
 
-.releases-section {
-  padding-bottom: 6rem;
+.about-section .introduction p.last {
+  margin-bottom: 0;
+}
+
+.about-section h1 {
+  padding: 3rem;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .releases-section.contact {
@@ -216,6 +235,19 @@
 .releases-section .project-text {
   padding: 3rem;
   font-size: 90%;
+}
+
+.releases-section .project-text p {
+  max-width: 400px;
+}
+
+.releases-section .project-text.left p {
+  float: right;
+  padding-bottom: 1rem;
+}
+
+.releases-section .project-text.left hr {
+  clear: both;
 }
 
 @media (min-width: 992px) {
@@ -279,7 +311,7 @@
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 5rem 0;
 }
 
 .contact-section .card {

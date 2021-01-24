@@ -1,8 +1,27 @@
 .about-section {
   padding-top: 5rem;
   text-align: justify;
+  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .6)} 30%,#{fade-out($black, .1)} 75%,$black 100%), url('../img/bg-about-2.jpg');
+  background-size: cover;
+  background-position: center;
 
-  p {
-    margin-bottom: 2rem;
+  .introduction {
+    background-color: rgba(49, 49, 49, 0.6);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    padding: 1rem;
+
+    p {
+      margin-bottom: 2rem;
+
+      &.last {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  h1 {
+    padding: 3rem;
   }
 }

@@ -1,6 +1,8 @@
-.releases-section {
-  padding-bottom: 6rem;
+.container-fluid {
+  padding: 0;
+}
 
+.releases-section {
   &.contact {
     padding-bottom: 0;
   }
@@ -39,6 +41,23 @@
   .project-text {
     padding: 3rem;
     font-size: 90%;
+
+    p {
+      // font-family: 'Didact Gothic', sans-serif;
+      max-width: 400px;
+    }
+
+    &.left {
+      p {
+        float: right;
+        padding-bottom: 1rem;
+      }
+
+      hr {
+        clear: both;
+      }
+    }
+
     @media (min-width: 992px) {
       padding: 5rem;
       hr {
