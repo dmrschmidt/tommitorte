@@ -174,14 +174,16 @@
 
 .about-section .introduction {
   background-color: rgba(49, 49, 49, 0.6);
-  -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
   border-radius: 5px;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .about-section .introduction p {
   margin-bottom: 2rem;
+  font-weight: 200;
+  color: #f8f9fa;
 }
 
 .about-section .introduction p.last {
@@ -189,7 +191,7 @@
 }
 
 .about-section h1 {
-  padding: 3rem;
+  padding: 5rem;
 }
 
 .container-fluid {
@@ -237,8 +239,10 @@
   font-size: 90%;
 }
 
-.releases-section .project-text p {
-  max-width: 400px;
+@media (min-width: 992px) {
+  .releases-section .project-text p {
+    max-width: 450px;
+  }
 }
 
 .releases-section .project-text.left p {
@@ -355,7 +359,7 @@
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Raleway';
   letter-spacing: 0.0625em;
 }
 
